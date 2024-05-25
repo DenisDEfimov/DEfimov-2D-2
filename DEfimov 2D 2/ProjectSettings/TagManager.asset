@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Bullet
+  - Enemy
+  - Ground
+  - Prop
   layers:
   - Default
   - TransparentFX
@@ -11,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Terrain
   - 
   - 
   - 
@@ -40,4 +45,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3320639527
+    locked: 0
+  - name: Midground
+    uniqueID: 2876619889
+    locked: 0
+  - name: Foreground
+    uniqueID: 1043661635
     locked: 0

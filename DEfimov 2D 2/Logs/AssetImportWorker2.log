@@ -15,7 +15,7 @@ C:/Users/user2/Documents/GitHub/DEfimov-2D-2/DEfimov 2D 2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51631
+53774
 Successfully changed project path to: C:/Users/user2/Documents/GitHub/DEfimov-2D-2/DEfimov 2D 2
 C:/Users/user2/Documents/GitHub/DEfimov-2D-2/DEfimov 2D 2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/user2/Documents/GitHub/DEfimov-2D-2/DEfimov 2D 2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16896] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 1843945883 [EditorId] 1843945883 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMGC11M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15388] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 2693821902 [EditorId] 2693821902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMGC11M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16896] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 1843945883 [EditorId] 1843945883 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMGC11M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15388] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 2693821902 [EditorId] 2693821902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KMGC11M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 6.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005883 seconds.
-- Loaded All Assemblies, in  0.233 seconds
+Registered in 0.005974 seconds.
+- Loaded All Assemblies, in  0.240 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.185 seconds
-Domain Reload Profiling: 418ms
-	BeginReloadAssembly (70ms)
+- Finished resetting the current domain, in  0.192 seconds
+Domain Reload Profiling: 431ms
+	BeginReloadAssembly (73ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (39ms)
+	initialDomainReloadingComplete (41ms)
 	LoadAllAssembliesAndSetupDomain (94ms)
-		LoadAssemblies (69ms)
+		LoadAssemblies (72ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (92ms)
-			TypeCache.Refresh (91ms)
-				TypeCache.ScanAssembly (82ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (186ms)
+	FinalizeReload (192ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (143ms)
+		SetupLoadedEditorAssemblies (148ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 418ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.426 seconds
-Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.419 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,48 +126,128 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.394 seconds
-Domain Reload Profiling: 818ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.396 seconds
+Domain Reload Profiling: 813ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (202ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (82ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (395ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (396ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (294ms)
+		SetupLoadedEditorAssemblies (298ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (244.3 KB). Loaded Objects now: 4502.
-Memory consumption went from 143.9 MB to 143.6 MB.
-Total: 2.434700 ms (FindLiveObjects: 0.178100 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.004900 ms  DeleteObjects: 0.154100 ms)
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.5 KB). Loaded Objects now: 4490.
+Memory consumption went from 143.7 MB to 143.4 MB.
+Total: 2.346200 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.079000 ms MarkObjects: 1.918900 ms  DeleteObjects: 0.168700 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Spawner.cs: 7de732fab2c49f3068a483eb669d8d17 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PatrollingEnemy.cs: e12ebd044e896100f971c9c83fbf23c6 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/PlayerControllerGrid.cs: 555063cd2f06a3dc458b534c12dfd219 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayerBullet.cs: c731ef22c8269eb15db4a8cb2ead8d91 -> 
+  custom:scripting/monoscript/fileName/BossEnemy.cs: 8214bf3a37beea1aeb4381700f123a1d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SlowEnemy.cs: 176e38de09eafe5557893c7526dd8327 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayerAnimationController.cs: cec980d44e636acf67506d96685ba5ac -> 
+  custom:scripting/monoscript/fileName/PlayerHealth.cs: 49f415306e52895faa0b0a35d62e54a1 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: a4f5918e799041ba1f6608f13912eb8b -> 
+  custom:scripting/monoscript/fileName/FastEnemy.cs: 9a2c666de7da915241c6c9124f79fe43 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SimpleFlyingEnemy.cs: b7fc0f8e64f73714026ea416a046f03c -> 
+  custom:scripting/monoscript/fileName/PlayerShoot.cs: cb19fbe30492adfa521da80ba71f6503 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.349 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.589 seconds
+Domain Reload Profiling: 935ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (589ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.5 KB). Loaded Objects now: 4509.
+Memory consumption went from 144.5 MB to 144.3 MB.
+Total: 2.366800 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.081200 ms MarkObjects: 1.977000 ms  DeleteObjects: 0.132700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,1033 +263,982 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 539531.904462 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)
-  artifactKey: Guid(47aff599caf9d9044b60471afe5ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO) using Guid(47aff599caf9d9044b60471afe5ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba68c82d8c018df26af748ae09d6447') in 0.002137 seconds
+  Time since last request: 615769.665312 seconds.
+  path: Assets/Scripts/Player/PlayerAnimationController.cs
+  artifactKey: Guid(9962191c83c08b545a8f67c631483437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerAnimationController.cs using Guid(9962191c83c08b545a8f67c631483437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352f273ed5ef57f819ad6b7dc4f6ba8f') in 0.002250 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.842005 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Tech.prefab
-  artifactKey: Guid(2433e1bbf23f90e46920b18778f22c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Tech.prefab using Guid(2433e1bbf23f90e46920b18778f22c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79041eda8126b65d0766328f00b0bac') in 0.194905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 839
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_77.asset
-  artifactKey: Guid(cc4993680e3390f46916db0057fcb428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_77.asset using Guid(cc4993680e3390f46916db0057fcb428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c0b6d964ea01b52363cb128f52988a') in 0.021149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_170.asset
-  artifactKey: Guid(7a38f9b95717e9c4a884d3db0e07b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_170.asset using Guid(7a38f9b95717e9c4a884d3db0e07b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0b629e050a3bd45c07cc40c12e75ca') in 0.015812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_32.asset
-  artifactKey: Guid(68fd79d99987ef7419f58951b2f7e0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_32.asset using Guid(68fd79d99987ef7419f58951b2f7e0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2018b4b360ed472ec1edb55240aba48') in 0.014565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_5.asset
-  artifactKey: Guid(4ecff638f8611eb4080096a47ed3b2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_5.asset using Guid(4ecff638f8611eb4080096a47ed3b2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1f23689c2d0d459348ef66ea1c0dee') in 0.016601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_158.asset
-  artifactKey: Guid(40c1e38beaa0e374bb9dd10641b0cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_158.asset using Guid(40c1e38beaa0e374bb9dd10641b0cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b1a1c79f20c05472bed453d561dc0c') in 0.015666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_142.asset
-  artifactKey: Guid(562690eed68f82b42a10d98d74f6938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_142.asset using Guid(562690eed68f82b42a10d98d74f6938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd6e61e9bc5216912a34bb4526356c9') in 0.015569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_82.asset
-  artifactKey: Guid(7d59ceafe797ebd47b6ae5508a84a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_82.asset using Guid(7d59ceafe797ebd47b6ae5508a84a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dbcd69361b24a1e141e0a03b058e96') in 0.015751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_3.asset
-  artifactKey: Guid(23c9cd96c0deaf24ba912f0c9a9308f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_3.asset using Guid(23c9cd96c0deaf24ba912f0c9a9308f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bc273a901dd0a4e78fe58cdabd02a7') in 0.015319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_30.asset
-  artifactKey: Guid(75baf7077b1d3ab42a5960b0d3f7e2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_30.asset using Guid(75baf7077b1d3ab42a5960b0d3f7e2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a02c71f0259e066e5f99b0d32b7ee0') in 0.017047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_53.asset
-  artifactKey: Guid(6b4c8db43e1c1654dad9e6f65ee152b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_53.asset using Guid(6b4c8db43e1c1654dad9e6f65ee152b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96db6fc39f3b614c16c9f796013ec2cb') in 0.013849 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_87.asset
-  artifactKey: Guid(6c78fe0bea584044485eb7f3f7eb567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_87.asset using Guid(6c78fe0bea584044485eb7f3f7eb567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e54987b8041b1681b5357bac6a473b') in 0.015420 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_103.asset
-  artifactKey: Guid(9845e6b081b48734892a7dd9203b3fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_103.asset using Guid(9845e6b081b48734892a7dd9203b3fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bd9e2edfe7ae315db24cde5c136adc') in 0.015420 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_93.asset
-  artifactKey: Guid(1e042b58dda907b4abd26e25dca2a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_93.asset using Guid(1e042b58dda907b4abd26e25dca2a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70caaca5eebb94bc588ed6c9c70187d3') in 0.014918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_96.asset
-  artifactKey: Guid(6172bd65a2d2d9e4f86b1f39b213deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_96.asset using Guid(6172bd65a2d2d9e4f86b1f39b213deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fd6ccc0f96d515d5aa1927548d19c3') in 0.015288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_175.asset
-  artifactKey: Guid(754cce6c6e272104998bc00ae3bae401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_175.asset using Guid(754cce6c6e272104998bc00ae3bae401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6238cb6d01df058bbf442c66c4a44973') in 0.015422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_129.asset
-  artifactKey: Guid(efe24c6713eab624c9e8325f4f4004a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_129.asset using Guid(efe24c6713eab624c9e8325f4f4004a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a716e73dfeec068cbf3de5aacd1395') in 0.014745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_157.asset
-  artifactKey: Guid(611864669f6f9ca4490214ccb6c3dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_157.asset using Guid(611864669f6f9ca4490214ccb6c3dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0440fb7a77548b5248e1176bbe54f13') in 0.014884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_10.asset
-  artifactKey: Guid(a856fc8b9b50b5940bc9820da390d022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_10.asset using Guid(a856fc8b9b50b5940bc9820da390d022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41916b7469aa87d7526f9f2edf803d3a') in 0.017703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_22.asset
-  artifactKey: Guid(eef2ed8ebb476f1409834cf204362938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_22.asset using Guid(eef2ed8ebb476f1409834cf204362938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad39151768cc63b45bcfdc5a66cf114') in 0.014821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_85.asset
-  artifactKey: Guid(c6354a7c9ef8e1b47a3ac29f5265141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_85.asset using Guid(c6354a7c9ef8e1b47a3ac29f5265141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2c9a037d028df6ec7350291c89e85a') in 0.014965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_121.asset
-  artifactKey: Guid(f9139cb21b919d7498a641a2dda2e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_121.asset using Guid(f9139cb21b919d7498a641a2dda2e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7e77f849862539328bac4cc828e810') in 0.017316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_50.asset
-  artifactKey: Guid(c14d8a1ce7d94944b810b8d86c3738a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_50.asset using Guid(c14d8a1ce7d94944b810b8d86c3738a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db60252151963d18e564e6b3073417a') in 0.016211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_52.asset
-  artifactKey: Guid(3ac2979e5001f64428b3e6ad2ba01e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_52.asset using Guid(3ac2979e5001f64428b3e6ad2ba01e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3186387834c9dbd61dcb7c64e445cd10') in 0.017426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_46.asset
-  artifactKey: Guid(41df7fafcc548344ab87d4fea59a3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_46.asset using Guid(41df7fafcc548344ab87d4fea59a3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fbc2137369b2e39ac9a695b993ba29') in 0.018336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_156.asset
-  artifactKey: Guid(c33926e4a2039494a8a1829dd1ffbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_156.asset using Guid(c33926e4a2039494a8a1829dd1ffbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b659a7dd61c63568fc0a8702bb39c7') in 0.018163 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_119.asset
-  artifactKey: Guid(4c09e5bd5bd18d0428cfb1a7f603eb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_119.asset using Guid(4c09e5bd5bd18d0428cfb1a7f603eb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1fdde59a28dbadf9aa12f35a1d7fe6') in 0.018278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_2.asset
-  artifactKey: Guid(c68d1118a84ced647b04e5f418d6b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_2.asset using Guid(c68d1118a84ced647b04e5f418d6b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df739b0f25abf94f8b868255a2cb1cd6') in 0.016904 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_123.asset
-  artifactKey: Guid(517b29d355626bd4da68597314dd163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_123.asset using Guid(517b29d355626bd4da68597314dd163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b4f20943e4c4f3522b5c7c440cd8cc') in 0.016449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_57.asset
-  artifactKey: Guid(c64d7933a4b9331499d76750b4fe9017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_57.asset using Guid(c64d7933a4b9331499d76750b4fe9017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac48d80b7b1ede483927ac54a34b7915') in 0.014875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_58.asset
-  artifactKey: Guid(ae7f9ebf1d97cd24e8069414681959ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_58.asset using Guid(ae7f9ebf1d97cd24e8069414681959ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678326c7b77010cf2b16aa5748260c06') in 0.019212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_51.asset
-  artifactKey: Guid(b10ad163d512566409fb18882815d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_51.asset using Guid(b10ad163d512566409fb18882815d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c6b9a09b0f4ecd2098685ab2d6c28f') in 0.016212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_154.asset
-  artifactKey: Guid(d12ca55170be40a4186db8e3a8d1a179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_154.asset using Guid(d12ca55170be40a4186db8e3a8d1a179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61003011d0e256cd643fae1690d26de') in 0.015030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_1.asset
-  artifactKey: Guid(ace6cf23b990c4840b71277b7c2e1c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_1.asset using Guid(ace6cf23b990c4840b71277b7c2e1c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1a071b85226549747d6f61d6b0df34') in 0.017055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_9.asset
-  artifactKey: Guid(d342da7d43e0e6d4f9c5c6f2dcd13458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_9.asset using Guid(d342da7d43e0e6d4f9c5c6f2dcd13458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8351421625202aea5e3d0de3cbcd3bd') in 0.020257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_47.asset
-  artifactKey: Guid(8c9b31291a1544a48a07cabe5910bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_47.asset using Guid(8c9b31291a1544a48a07cabe5910bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe1d4cc4755059446aaf8dbc07f3117') in 0.023792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_140.asset
-  artifactKey: Guid(e64973f656a48b84ea1f184de0d64b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_140.asset using Guid(e64973f656a48b84ea1f184de0d64b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375b28ebdf957ccb4ada062a1ddf35d8') in 0.016616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_122.asset
-  artifactKey: Guid(c79ae160f56af334ab343a25f7fc1dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_122.asset using Guid(c79ae160f56af334ab343a25f7fc1dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a557f496086af09ffa8555a58226a8') in 0.016119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_172.asset
-  artifactKey: Guid(defc3aeb70257d348abe060cf594589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_172.asset using Guid(defc3aeb70257d348abe060cf594589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cc0970b84e8fc6ad4316d67d9dbee3') in 0.013818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_151.asset
-  artifactKey: Guid(c12211b3e888cec44967ee1f1005cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_151.asset using Guid(c12211b3e888cec44967ee1f1005cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8a8464171eb559715fc3c117df0072') in 0.018415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_134.asset
-  artifactKey: Guid(466700d3e6a7517488980e99de518a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_134.asset using Guid(466700d3e6a7517488980e99de518a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3413fb9b09645476b242bb7320c310ce') in 0.017379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_76.asset
-  artifactKey: Guid(322b80a474c8e7f46a47de91a546e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_76.asset using Guid(322b80a474c8e7f46a47de91a546e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7777a1f62198088d5cbdc8ecca570537') in 0.015656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_148.asset
-  artifactKey: Guid(1bca54f62cd1056429a2c996207e876b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_148.asset using Guid(1bca54f62cd1056429a2c996207e876b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac1f72d11559790f0d049debbe8b6c5') in 0.014490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_36.asset
-  artifactKey: Guid(7952bcb5701f7704cb549d0f792d574a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_36.asset using Guid(7952bcb5701f7704cb549d0f792d574a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1643c67b0964f53bc4c5c670ebd85dd9') in 0.016195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_92.asset
-  artifactKey: Guid(bab206fd258f6b248953c92b1d04aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_92.asset using Guid(bab206fd258f6b248953c92b1d04aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8206b834e0871f41ef9a1d34ed236a98') in 0.014713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_89.asset
-  artifactKey: Guid(6d48a44b151f2c04b9c49fc475c0d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_89.asset using Guid(6d48a44b151f2c04b9c49fc475c0d566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e71b0b2d94413c88a5a8adec46762a') in 0.016914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_28.asset
-  artifactKey: Guid(adf5d650d2118d8498ad9a47bb6d3167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_28.asset using Guid(adf5d650d2118d8498ad9a47bb6d3167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21a11c287e97be9e66b058936552bd2') in 0.016042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_83.asset
-  artifactKey: Guid(0c1b6fdcd6e3d174abb7661a57846504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_83.asset using Guid(0c1b6fdcd6e3d174abb7661a57846504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895c85e6a5afead23540aec1f59f4598') in 0.014060 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_110.asset
-  artifactKey: Guid(ddaab0f92f3f9df4c819e92302eb847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_110.asset using Guid(ddaab0f92f3f9df4c819e92302eb847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7dd1ac938b2594b189a3572d95c9ac') in 0.015764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_90.asset
-  artifactKey: Guid(3bf091b8c598bd744ba572c97e2d0efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_90.asset using Guid(3bf091b8c598bd744ba572c97e2d0efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c986ba7823ec6e0130c82c17d0013314') in 0.014150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_20.asset
-  artifactKey: Guid(91fccec81701efc40802de602b0ca9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_20.asset using Guid(91fccec81701efc40802de602b0ca9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddee8af844bf1f4953c8a76af75a7397') in 0.014839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_136.asset
-  artifactKey: Guid(a18cdfe1f1b0b9a408f584fc71e8f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_136.asset using Guid(a18cdfe1f1b0b9a408f584fc71e8f022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cd44762b2f3f667d070f8e35a47b31') in 0.016706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_45.asset
-  artifactKey: Guid(c4522de8b3906f2408c2df6feefc10e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_45.asset using Guid(c4522de8b3906f2408c2df6feefc10e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f452539d920d039607392f20d6efbc') in 0.015566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_55.asset
-  artifactKey: Guid(ee5dd5b0eaac9c341827b4ae5661ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_55.asset using Guid(ee5dd5b0eaac9c341827b4ae5661ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1826719f3e261165e39b3baf8e7771ee') in 0.016230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_128.asset
-  artifactKey: Guid(a71b426530eb82644be92066d2c36f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_128.asset using Guid(a71b426530eb82644be92066d2c36f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfecd3bbeeb22c0e3e3f87d72883ada') in 0.014265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_164.asset
-  artifactKey: Guid(a5d5bd01e090d0848b426325a85734af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_164.asset using Guid(a5d5bd01e090d0848b426325a85734af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c318668923e6f5726e7faae89f41f771') in 0.018728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.099096 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_179.asset
-  artifactKey: Guid(99f3354047f88ea4fb59360d2483b20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_179.asset using Guid(99f3354047f88ea4fb59360d2483b20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf82b747d38d4a94cc9e9ed3994f711') in 0.023277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_193.asset
-  artifactKey: Guid(dd458f1a0e70d8a43ba24d24aee78126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_193.asset using Guid(dd458f1a0e70d8a43ba24d24aee78126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a804697344af66f5084efcb8efc02bf4') in 0.015853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_190.asset
-  artifactKey: Guid(9a7d75943dddd4a4e82ec7962490ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_190.asset using Guid(9a7d75943dddd4a4e82ec7962490ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fb7127806c57398f391a488b85a001') in 0.020813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_246.asset
-  artifactKey: Guid(71c862bb6e396664c9e61ad526af9978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_246.asset using Guid(71c862bb6e396664c9e61ad526af9978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e287764e2c47a9849a31f6719c57ce4f') in 0.016633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_266.asset
-  artifactKey: Guid(26c4d4c7d15a01f4b927f53479a542c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_266.asset using Guid(26c4d4c7d15a01f4b927f53479a542c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c855ac9ae34dde5316cd0c2ab6a6130') in 0.017810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_281.asset
-  artifactKey: Guid(56245a3423ff6bd419f666cd15ae5e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_281.asset using Guid(56245a3423ff6bd419f666cd15ae5e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0055d688dddfe5f1292e25ff5cab4fdc') in 0.014784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_287.asset
-  artifactKey: Guid(ae7c39ae3c7ac6b408fc77e6cb42e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_287.asset using Guid(ae7c39ae3c7ac6b408fc77e6cb42e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0630d74e5f69c3d17a9783f0338884') in 0.015832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_296.asset
-  artifactKey: Guid(e37e37f6cd22a6e49a8eb1f00f134efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_296.asset using Guid(e37e37f6cd22a6e49a8eb1f00f134efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24d706a4d0d6523a7197c382768706d') in 0.017344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_282.asset
-  artifactKey: Guid(8b349462a155484488154415e53e1972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_282.asset using Guid(8b349462a155484488154415e53e1972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c54922e96add1a15e0fd2e7a31382ac') in 0.017188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_357.asset
-  artifactKey: Guid(7009d8b0bceef9c448206fae543bd2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_357.asset using Guid(7009d8b0bceef9c448206fae543bd2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30f4516dcfb9fda77e69223b863bf1f') in 0.017746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_353.asset
-  artifactKey: Guid(005c494cda0c8854cbd4df5826e79aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_353.asset using Guid(005c494cda0c8854cbd4df5826e79aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d4c238cee6d1db512bf25d4050659c') in 0.015205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_373.asset
-  artifactKey: Guid(d8fc3885101daaf4fa5f65969849de17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_373.asset using Guid(d8fc3885101daaf4fa5f65969849de17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb59d741ba707d4492c9df73648ccc1f') in 0.014462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_383.asset
-  artifactKey: Guid(ac4d203c6e7213b4f9c8467f62f3a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_383.asset using Guid(ac4d203c6e7213b4f9c8467f62f3a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2707c008697449af3f37164452fec5c2') in 0.016485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_395.asset
-  artifactKey: Guid(1107c460f2cc08d40a67a4099474964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_395.asset using Guid(1107c460f2cc08d40a67a4099474964c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45980bbd6bab9b48aa15dff2b9f9e17') in 0.014653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_240.asset
-  artifactKey: Guid(79360947af2c8414f91fe05e6af983c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_240.asset using Guid(79360947af2c8414f91fe05e6af983c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f22883c40f1b32598e4457064011e6e') in 0.015111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_292.asset
-  artifactKey: Guid(4eed91a0a4674284ab2b98ceaa5890a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_292.asset using Guid(4eed91a0a4674284ab2b98ceaa5890a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074ea7aa98f4b504647da4414d53ba00') in 0.015447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_286.asset
-  artifactKey: Guid(511bd1a6244ded541b41c28939ea3c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_286.asset using Guid(511bd1a6244ded541b41c28939ea3c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dba554c6fa0997ce69a22274c65056a') in 0.010105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_184.asset
-  artifactKey: Guid(3b8289d04b5fd584d8d6cccfbdcbe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_184.asset using Guid(3b8289d04b5fd584d8d6cccfbdcbe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c0395443791c3017b87af2b151f146') in 0.014187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_368.asset
-  artifactKey: Guid(b3bc1be90b979e946b6b666c9b98ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_368.asset using Guid(b3bc1be90b979e946b6b666c9b98ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da4bb00b3872a6f5fe89b84fb9783ac') in 0.014277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_351.asset
-  artifactKey: Guid(0831b44cdeb2fcf4cb711f91eb24b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_351.asset using Guid(0831b44cdeb2fcf4cb711f91eb24b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75db058c0da5267908c9a37be45dc753') in 0.015989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_334.asset
-  artifactKey: Guid(c9e53d7cee2c51d48bf8e46a1ed6666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_334.asset using Guid(c9e53d7cee2c51d48bf8e46a1ed6666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80be385d9d7816504e8595e4c3aa95a4') in 0.015723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_325.asset
-  artifactKey: Guid(9b5851f729be09746a9b66e08d58d88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_325.asset using Guid(9b5851f729be09746a9b66e08d58d88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7a8cc2ccb6c274aae15d4322cabe97') in 0.014695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_399.asset
-  artifactKey: Guid(be3787f58fed3e44fb028ab9c5f2dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_399.asset using Guid(be3787f58fed3e44fb028ab9c5f2dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a039efa806b24c154732e0cf4c2150') in 0.015274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_330.asset
-  artifactKey: Guid(14583c1b45e82a54a83c855528b28e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_330.asset using Guid(14583c1b45e82a54a83c855528b28e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bebd753fdd64e03671ee760dfe06cd5') in 0.015443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_204.asset
-  artifactKey: Guid(7a344f11b56547a43b18014cfa5b7330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_204.asset using Guid(7a344f11b56547a43b18014cfa5b7330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a3e7bf44acb6113a58e0c331461016') in 0.015855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_409.asset
-  artifactKey: Guid(14e0d9d01d186054ea1502fb9b5f3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_409.asset using Guid(14e0d9d01d186054ea1502fb9b5f3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5198a5e9c95acbc76faca1db31b7bba1') in 0.014760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_237.asset
-  artifactKey: Guid(531e0ac375456204886c437a8daafde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_237.asset using Guid(531e0ac375456204886c437a8daafde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb17e2b21353d8370653c58912f28b9') in 0.016089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_360.asset
-  artifactKey: Guid(45a4a1f47fa92eb418dfd4d3f1249281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_360.asset using Guid(45a4a1f47fa92eb418dfd4d3f1249281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f65d42dac8e847a5a66f35fe0908c1') in 0.015417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_185.asset
-  artifactKey: Guid(b8beca396a344094fb994ba3f69ad4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_185.asset using Guid(b8beca396a344094fb994ba3f69ad4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a560001be7ccf2d9fdcaeffd1e68741') in 0.015843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_222.asset
-  artifactKey: Guid(5762c2a179c40004994c9eb742075fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_222.asset using Guid(5762c2a179c40004994c9eb742075fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73152b110cff0438b5d4c8a186ff2b7') in 0.014784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_318.asset
-  artifactKey: Guid(c0d2ccbf0f38a1a4996596cd7e37e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_318.asset using Guid(c0d2ccbf0f38a1a4996596cd7e37e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae71198bef3a7d3366dbc27e298ec3e') in 0.016285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_313.asset
-  artifactKey: Guid(b1c24fe931c8aff49956c32acc1668c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_313.asset using Guid(b1c24fe931c8aff49956c32acc1668c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc402e1f731b3fae6f8c5af85c307d52') in 0.013565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_270.asset
-  artifactKey: Guid(ada8672f3c46bc746863f2bb687e03df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_270.asset using Guid(ada8672f3c46bc746863f2bb687e03df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a582f4648c40ead049b0559c92b2d8eb') in 0.014540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_244.asset
-  artifactKey: Guid(4cd622adca3c7a9428dee375af9358e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_244.asset using Guid(4cd622adca3c7a9428dee375af9358e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c59f071f8d4a8ff6f8d8504dbe9a3') in 0.017963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_371.asset
-  artifactKey: Guid(1444253c435b3d948941b9bf6aa9b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_371.asset using Guid(1444253c435b3d948941b9bf6aa9b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad8857562c3e970d0266e252f7ff803') in 0.016019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_220.asset
-  artifactKey: Guid(4dfc095213fb61e429f010b262cd49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_220.asset using Guid(4dfc095213fb61e429f010b262cd49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17151414f9509facdc2fc34280c253ff') in 0.015134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_393.asset
-  artifactKey: Guid(b64718944f1c7d74ab4d245fdbeb8625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_393.asset using Guid(b64718944f1c7d74ab4d245fdbeb8625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270f399160488d3f3039879450039972') in 0.015959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_354.asset
-  artifactKey: Guid(111421de911ab1640b3bc30697fd1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_354.asset using Guid(111421de911ab1640b3bc30697fd1404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbde8b9c8b6ee4afaeb1d5333ff3e0b') in 0.013818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_192.asset
-  artifactKey: Guid(ebd862883d906fd4f880f8052d0845fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_192.asset using Guid(ebd862883d906fd4f880f8052d0845fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e62ef851b3dd38f03dcd4b92a2bf23d') in 0.015524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_400.asset
-  artifactKey: Guid(90465f677f7eaaa4198fd50344768bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_400.asset using Guid(90465f677f7eaaa4198fd50344768bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d6021e1c935f5bf1699fe32518b3a9') in 0.017152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_406.asset
-  artifactKey: Guid(8c485a139b553fc4e8530e619cedf0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_406.asset using Guid(8c485a139b553fc4e8530e619cedf0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7b6c65d8a279dc3d492f884218e559') in 0.021446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_401.asset
-  artifactKey: Guid(eb83bf1b47a2d65429fab44cf767cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_401.asset using Guid(eb83bf1b47a2d65429fab44cf767cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c136c82d39454d7fa5a98dd9f56aac') in 0.020057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_328.asset
-  artifactKey: Guid(d8f953d182db6114d9da65701c82713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_328.asset using Guid(d8f953d182db6114d9da65701c82713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b435eb8b5824d1a222c495fb3a1c280') in 0.016386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_235.asset
-  artifactKey: Guid(a65c4bba50bb18449b5f20edb6f1a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_235.asset using Guid(a65c4bba50bb18449b5f20edb6f1a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b326abba5dfacbebbd762acd8cc782c') in 0.014081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_251.asset
-  artifactKey: Guid(8a43e402b905b9341b2e6f46518b6f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_251.asset using Guid(8a43e402b905b9341b2e6f46518b6f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d2355d40af865381ad5a636af68cf5') in 0.015161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_200.asset
-  artifactKey: Guid(b09016bf11c400846b898e735d253b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_200.asset using Guid(b09016bf11c400846b898e735d253b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ca2c230c98fba6a19454cc9654b0e2') in 0.016006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_252.asset
-  artifactKey: Guid(5b4810abdca062a47a8d1d3833e6e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_252.asset using Guid(5b4810abdca062a47a8d1d3833e6e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925280fde7b27092f0a25fc50ff5a1f0') in 0.016652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_215.asset
-  artifactKey: Guid(1ef766ae9a8371844b9d6c20651444d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_215.asset using Guid(1ef766ae9a8371844b9d6c20651444d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b3ddc6b83cf57c5934a31d276ce80') in 0.016634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_299.asset
-  artifactKey: Guid(3ddb0232268631641a915106703d59d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_299.asset using Guid(3ddb0232268631641a915106703d59d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df1ee0fe3ee041ade5eb64f16fe71ed') in 0.013445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_223.asset
-  artifactKey: Guid(de34e1d906aa89f4b8048cd735e76a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_223.asset using Guid(de34e1d906aa89f4b8048cd735e76a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35591075dc9a951a17ceeb3f2ad7d3ac') in 0.014701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_326.asset
-  artifactKey: Guid(d61719595fc50d045a4a4933b6819431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_326.asset using Guid(d61719595fc50d045a4a4933b6819431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85288dabacf3662e9cab0423a901c66') in 0.015301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x3.png
-  artifactKey: Guid(5c6f7bd76b2605140966db46d7216588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x3.png using Guid(5c6f7bd76b2605140966db46d7216588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472e030f4b07a6b227f5ca7f023e6448') in 0.028301 seconds
+  Time since last request: 2.323231 seconds.
+  path: Assets/Scripts/Player/PlayerControllerGrid.cs
+  artifactKey: Guid(7a84a978b9fab8f4b8d67f811cc7d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerControllerGrid.cs using Guid(7a84a978b9fab8f4b8d67f811cc7d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1fc1426580b1b6479cba79a0027693') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.831187 seconds.
+  path: Assets/Scripts/Player/PlayerHealth.cs
+  artifactKey: Guid(7111da7b52d8c204b9e3ce59e485d716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerHealth.cs using Guid(7111da7b52d8c204b9e3ce59e485d716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02e861314e1cbca224eb9cbc04b34b3') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 962ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (217.3 KB). Loaded Objects now: 4512.
+Memory consumption went from 146.2 MB to 146.0 MB.
+Total: 2.355500 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.087900 ms MarkObjects: 1.956300 ms  DeleteObjects: 0.129500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.343 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 956ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (217.3 KB). Loaded Objects now: 4515.
+Memory consumption went from 148.4 MB to 148.1 MB.
+Total: 2.398500 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.094600 ms MarkObjects: 1.985200 ms  DeleteObjects: 0.129900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.796821 seconds.
+  path: Assets/Scripts/Player/PlayerController.cs
+  artifactKey: Guid(1360ad56788cc5a4daae4e69e62eadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerController.cs using Guid(1360ad56788cc5a4daae4e69e62eadf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdabcbd3b0a8645c96235c61f4e4ec7') in 0.001656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.345 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 972ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (217.1 KB). Loaded Objects now: 4518.
+Memory consumption went from 150.0 MB to 149.8 MB.
+Total: 2.244200 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.088300 ms MarkObjects: 1.848500 ms  DeleteObjects: 0.128700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.354 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 932ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (217.3 KB). Loaded Objects now: 4521.
+Memory consumption went from 152.2 MB to 152.0 MB.
+Total: 2.274400 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.078200 ms MarkObjects: 1.897500 ms  DeleteObjects: 0.123100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 929ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (217.7 KB). Loaded Objects now: 4525.
+Memory consumption went from 154.1 MB to 153.9 MB.
+Total: 2.449500 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.086800 ms MarkObjects: 2.040600 ms  DeleteObjects: 0.139400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.601332 seconds.
+  path: Assets/Scripts/Enemy/SimpleFlyingEnemy.cs
+  artifactKey: Guid(bf8cd476fe4c7804f89d1def1099fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/SimpleFlyingEnemy.cs using Guid(bf8cd476fe4c7804f89d1def1099fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414de9782e2772ea3549fd0a45927de4') in 0.001741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.342 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 954ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4032 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (219.6 KB). Loaded Objects now: 4523.
+Memory consumption went from 155.7 MB to 155.5 MB.
+Total: 2.320500 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.090100 ms MarkObjects: 1.882600 ms  DeleteObjects: 0.153900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.089073 seconds.
+  path: Assets/Scripts/Enemy/EP2
+  artifactKey: Guid(a10d3119a30470d46baccca9b92094d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EP2 using Guid(a10d3119a30470d46baccca9b92094d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2fc4bb3188bd9b3bd12ea7fd824fc3') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.589264 seconds.
+  path: Assets/Scripts/Enemy/EP2/Spawner.cs
+  artifactKey: Guid(885dfb6966a794043bd552f471fbf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EP2/Spawner.cs using Guid(885dfb6966a794043bd552f471fbf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bf1a382730778494e4c9fd5f1a5b4e') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.064207 seconds.
+  path: Assets/Scripts/Enemy/EP2/Enemy.cs
+  artifactKey: Guid(a96861b0575393d43878e2d84792f436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EP2/Enemy.cs using Guid(a96861b0575393d43878e2d84792f436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb2b1447277bda928dffb8df5a7650') in 0.000397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 937ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4032 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.7 KB). Loaded Objects now: 4527.
+Memory consumption went from 157.6 MB to 157.4 MB.
+Total: 2.271800 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.093900 ms MarkObjects: 1.854800 ms  DeleteObjects: 0.134000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.552436 seconds.
+  path: Assets/Scripts/Parcial/Spawner.cs
+  artifactKey: Guid(885dfb6966a794043bd552f471fbf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Parcial/Spawner.cs using Guid(885dfb6966a794043bd552f471fbf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7209371c6495f32550795ac0375409ca') in 0.001581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 98.495863 seconds.
+  path: Assets/Scripts/Parcial/PlayerMovement.cs
+  artifactKey: Guid(3534b9370e1379c419afc2ea2ddc5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Parcial/PlayerMovement.cs using Guid(3534b9370e1379c419afc2ea2ddc5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce27bc2ba190398b36cfe0a4725a748c') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 977ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.5 KB). Loaded Objects now: 4532.
+Memory consumption went from 159.5 MB to 159.3 MB.
+Total: 2.467800 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.095600 ms MarkObjects: 2.016600 ms  DeleteObjects: 0.145400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.091819 seconds.
+  path: Assets/Scripts/Parcial/PlayerAnimationController.cs
+  artifactKey: Guid(9962191c83c08b545a8f67c631483437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Parcial/PlayerAnimationController.cs using Guid(9962191c83c08b545a8f67c631483437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a524bb5487c8bd7c76c6792663e2f') in 0.001497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.349 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 994ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (308ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.5 KB). Loaded Objects now: 4536.
+Memory consumption went from 161.5 MB to 161.3 MB.
+Total: 2.648900 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.192800 ms  DeleteObjects: 0.143300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 398.387158 seconds.
+  path: Assets/Scripts/Parcial/PlayerMovement.cs
+  artifactKey: Guid(3534b9370e1379c419afc2ea2ddc5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Parcial/PlayerMovement.cs using Guid(3534b9370e1379c419afc2ea2ddc5b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b744ca46dacef6085fe39152e4b763') in 0.001662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.325 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 1009ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.7 KB). Loaded Objects now: 4540.
+Memory consumption went from 163.4 MB to 163.2 MB.
+Total: 2.539700 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.119300 ms MarkObjects: 2.042100 ms  DeleteObjects: 0.169800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.337 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 985ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.7 KB). Loaded Objects now: 4544.
+Memory consumption went from 165.6 MB to 165.4 MB.
+Total: 2.353100 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.107600 ms MarkObjects: 1.904800 ms  DeleteObjects: 0.137500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136.893887 seconds.
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players
+  artifactKey: Guid(95cd9a0cc1103d645bfb524d6e0c7b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players using Guid(95cd9a0cc1103d645bfb524d6e0c7b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d679c3c965e808ac3718a9e099e090c') in 0.002276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090493 seconds.
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players blue x1.png
+  artifactKey: Guid(20049f336d7cc8343bd15aa417c55c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players blue x1.png using Guid(20049f336d7cc8343bd15aa417c55c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7028356117bec163330fc3e3f2cc098') in 0.045410 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_269.asset
-  artifactKey: Guid(38d7bd54bb017c84a949f1893ff33c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_269.asset using Guid(38d7bd54bb017c84a949f1893ff33c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406dd5bfbb3b9fbbb78beae66c8cfad8') in 0.015925 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players green x3.png
+  artifactKey: Guid(073ef77c50507694189ae9d04eb4efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players green x3.png using Guid(073ef77c50507694189ae9d04eb4efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442e5235f2eb3a748a6111de6234f87f') in 0.018749 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_226.asset
-  artifactKey: Guid(46e91a4aee1e6164cb4fc9cebeb53adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_226.asset using Guid(46e91a4aee1e6164cb4fc9cebeb53adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b773b1107875eca4d1bba56e3cd813c') in 0.015682 seconds
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players grey x1.png
+  artifactKey: Guid(e6d3fd77c7b4353428e23c35aad81758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players grey x1.png using Guid(e6d3fd77c7b4353428e23c35aad81758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e352aaceb97b7a8aafaecd95801848') in 0.009970 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_387.asset
-  artifactKey: Guid(2656dfbbec402a044aff160a38807a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_387.asset using Guid(2656dfbbec402a044aff160a38807a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e615e181f8faa13be9f80a3578ee2f') in 0.017182 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players green x1.png
+  artifactKey: Guid(0deadd7b902b4a748978eab36b3487bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players green x1.png using Guid(0deadd7b902b4a748978eab36b3487bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752f709d00820da370c0919cfc1813e9') in 0.010787 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_285.asset
-  artifactKey: Guid(fc47fe8059b2c42469062ade7932bb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_285.asset using Guid(fc47fe8059b2c42469062ade7932bb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6350b57fb88a3122bc3717442b7179bb') in 0.013454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_304.asset
-  artifactKey: Guid(cf136558b960ede4bac9ed2b616a51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_304.asset using Guid(cf136558b960ede4bac9ed2b616a51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c7a5857d1da1e7bf8aac61426184e5') in 0.015105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_340.asset
-  artifactKey: Guid(c5c6dac348919cf4cabccd0cd3ada0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_340.asset using Guid(c5c6dac348919cf4cabccd0cd3ada0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda831b4fa1f859c6e26ff5bdc661eae') in 0.016538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_249.asset
-  artifactKey: Guid(db28b6230f442a942b59d18094a0e3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_249.asset using Guid(db28b6230f442a942b59d18094a0e3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15b85fde9a48990f6a91442e11ace15') in 0.014996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_359.asset
-  artifactKey: Guid(9c8d45691bcca3e4893a1800ddd7eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_359.asset using Guid(9c8d45691bcca3e4893a1800ddd7eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed61d4ad789758de7733c28d9d2c06e') in 0.018082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_289.asset
-  artifactKey: Guid(0348fd07036075741b59eb52254263ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_289.asset using Guid(0348fd07036075741b59eb52254263ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cf84554b64c0105d0e02368c7bb923') in 0.015659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_404.asset
-  artifactKey: Guid(1e07f5dad5a7bd84387385458526c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_404.asset using Guid(1e07f5dad5a7bd84387385458526c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efb21cb00bbb4d77ab961091bb23d96') in 0.015423 seconds
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players grey x3.png
+  artifactKey: Guid(8e0499a21ad5fe749926e43aef362935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players grey x3.png using Guid(8e0499a21ad5fe749926e43aef362935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e274fb379935fcb9f642b1089cbb3ed') in 0.012990 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_303.asset
-  artifactKey: Guid(81e22f8df7e557148af2dfd2eac88a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_303.asset using Guid(81e22f8df7e557148af2dfd2eac88a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9650f165259b148cb88c9cafa19d16') in 0.018149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_315.asset
-  artifactKey: Guid(8e8e88a5b60065f4a928379c3d3b8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_315.asset using Guid(8e8e88a5b60065f4a928379c3d3b8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7849c30e23a002a8be91e9ccaaa0de8') in 0.014864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_410.asset
-  artifactKey: Guid(e1d7dfdf441874e4bba0c696b69da582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_410.asset using Guid(e1d7dfdf441874e4bba0c696b69da582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc3c0504fb882f8479b50209c2972bf') in 0.016680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_347.asset
-  artifactKey: Guid(cbbc034408dedb6489bb12b11f9b8d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_347.asset using Guid(cbbc034408dedb6489bb12b11f9b8d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4da5d89bbe81ddb9fe769a5959812b') in 0.016435 seconds
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players green x2.png
+  artifactKey: Guid(bb71676e4d6159341b46e2f3066c2b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players green x2.png using Guid(bb71676e4d6159341b46e2f3066c2b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cca05faf59034be5ce24a582733cc0b') in 0.012152 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_205.asset
-  artifactKey: Guid(82bf11fd624b93d469cfae3e40325152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_205.asset using Guid(82bf11fd624b93d469cfae3e40325152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8597adfe34f6213b59401c79c8b335bf') in 0.014714 seconds
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players grey x2.png
+  artifactKey: Guid(30a0d05068c8dee4cb46b7065bf6e7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players grey x2.png using Guid(30a0d05068c8dee4cb46b7065bf6e7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf6050c82c8228bac6b3d8c5467f9af') in 0.010727 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_312.asset
-  artifactKey: Guid(870f0554a14868a4c8a2ae8d08e6e1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_312.asset using Guid(870f0554a14868a4c8a2ae8d08e6e1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09307afd9c39c94ebe55635948bd722f') in 0.017581 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players red x1.png
+  artifactKey: Guid(52c349c0dbc03514fa92b644c6d88693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players red x1.png using Guid(52c349c0dbc03514fa92b644c6d88693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2604fca9659c2170da1fe82335ba67') in 0.009943 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_201.asset
-  artifactKey: Guid(15d0378a08d9c844b8b70570e8b8578d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x2_201.asset using Guid(15d0378a08d9c844b8b70570e8b8578d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124f8f021ae870c452f47658db65c635') in 0.016210 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players red x3.png
+  artifactKey: Guid(0c4d70bff9c8d624f960272fa9008dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players red x3.png using Guid(0c4d70bff9c8d624f960272fa9008dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa61455147269f9e1b5b6b83ae88244c') in 0.013126 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.357695 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/UI
-  artifactKey: Guid(7e29fe4e87297b447bd115baf072e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/UI using Guid(7e29fe4e87297b447bd115baf072e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b6cee1035496929ec7e8b6c87164d0') in 0.000396 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players blue x3.png
+  artifactKey: Guid(6fa0543dc991cd449aea328a7faf6ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/players blue x3.png using Guid(6fa0543dc991cd449aea328a7faf6ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598bff9e3b0863cccde03fd07bfa9dca') in 0.013072 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Import Request.
-  Time since last request: 0.192063 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/UI/ui x1.png
-  artifactKey: Guid(e548d74c1ae7b6b4f8ec221a2b7cf516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/UI/ui x1.png using Guid(e548d74c1ae7b6b4f8ec221a2b7cf516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898337b542f5261977edb9e8b445fc55') in 0.029161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.102989 seconds.
-  path: Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC
-  artifactKey: Guid(34e2186a209a8e441b6648b7d364cf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC using Guid(34e2186a209a8e441b6648b7d364cf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220ad3c8e0b26351fffc17a6ea302d59') in 0.000403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.351 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1050ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (701ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.8 KB). Loaded Objects now: 4551.
+Memory consumption went from 167.3 MB to 167.1 MB.
+Total: 2.365200 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.084900 ms MarkObjects: 1.960900 ms  DeleteObjects: 0.136100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
