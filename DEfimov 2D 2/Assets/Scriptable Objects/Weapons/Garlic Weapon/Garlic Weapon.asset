@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70812a6e4f3a93f4baecf693f27121e3, type: 3}
-  m_Name: Knife Weapon
+  m_Name: Garlic Weapon
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8714191172974450849, guid: 7a33ac3001168984f9c434ac1530efc3, type: 3}
+  prefab: {fileID: 8303979927961709663, guid: ebdb6133f3a101347a6e34957927e43c, type: 3}
   damage: 5
-  speed: 10
-  cooldownDuration: 2
-  pierce: 2
+  speed: 0
+  cooldownDuration: 3
+  pierce: 0
+  level: 1
+  nextLevelPrefab: {fileID: 6631421921403587863, guid: 84e333dfcf20dff498020a997d7b5309, type: 3}
