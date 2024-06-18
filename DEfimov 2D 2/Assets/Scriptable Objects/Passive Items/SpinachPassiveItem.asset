@@ -9,13 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1cc8570012b3474291c9e628b2b5b67, type: 3}
-  m_Name: GarlicCharacter
+  m_Script: {fileID: 11500000, guid: 3b1d19dee5cc26c48824bb44362140e8, type: 3}
+  m_Name: SpinachPassiveItem
   m_EditorClassIdentifier: 
-  startingWeapon: {fileID: 6631421921403587863, guid: 33f9ab6450e638b4e8012f09d834a915, type: 3}
-  maxHealth: 1000
-  recovery: 1
-  moveSpeed: 5
-  might: 1
-  projectileSpeed: 0
-  magnet: 2
+  multiplier: 100
