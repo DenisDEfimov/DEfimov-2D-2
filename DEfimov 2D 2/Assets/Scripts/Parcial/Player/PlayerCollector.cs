@@ -16,7 +16,7 @@ public class PlayerCollector : MonoBehaviour
 
     void Update()
     {
-        playerCollector.radius = player.currentMagnet;
+        playerCollector.radius = player.CurrentMagnet;
     }
 
     void OnTriggerStay2D(Collider2D col)  // Use OnTriggerStay2D for continuous effect
