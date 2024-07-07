@@ -15,4 +15,6 @@ MonoBehaviour:
   multiplier: 75
   level: 2
   nextLevelPrefab: {fileID: 0}
+  name: Speed Booster +1
+  description: Speed increase +25%.
   icon: {fileID: -262222800, guid: 8a190efba6d78394c81f7c407f29ae87, type: 3}

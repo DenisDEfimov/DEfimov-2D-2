@@ -15,4 +15,6 @@ MonoBehaviour:
   multiplier: 100
   level: 1
   nextLevelPrefab: {fileID: 1998556822787481831, guid: c323a3553deeae140918da5a2a7e9fc1, type: 3}
+  name: Damage Booster
+  description: Increases damage dealt.
   icon: {fileID: -1377110694, guid: 8a190efba6d78394c81f7c407f29ae87, type: 3}

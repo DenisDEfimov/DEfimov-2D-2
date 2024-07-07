@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -135,6 +136,9 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
+    [Header("UI")]
+    public Image healthBar;
+
     void Awake()
     {
         characterData = CharacterSelector.GetData();
@@ -163,6 +167,8 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
 
         GameManager.instance.AssignChosenCharacterUI(characterData);
+        
+        UpdateHealthBar();
     }
 
     public void IncreaseExperience(int amount)
@@ -193,6 +199,8 @@ public class PlayerStats : MonoBehaviour
                 }
             }
             experienceCap += experienceCapIncrease;
+
+            GameManager.instance.StartLevelUp();
         }
     }
 
@@ -210,6 +218,8 @@ public class PlayerStats : MonoBehaviour
             {
                 StartCoroutine(InvincibilityCoroutine());
             }
+
+            UpdateHealthBar();
         }
     }
 
@@ -218,6 +228,11 @@ public class PlayerStats : MonoBehaviour
         isInvincible = true;
         yield return new WaitForSeconds(invincibilityDuration);
         isInvincible = false;
+    }
+
+    void UpdateHealthBar()
+    {
+        healthBar.fillAmount = currentHealth / characterData.MaxHealth;
     }
 
     public void Kill()

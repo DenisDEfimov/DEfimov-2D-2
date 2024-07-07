@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70812a6e4f3a93f4baecf693f27121e3, type: 3}
   m_Name: Knife Weapon Level 2
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8714191172974450849, guid: 7a33ac3001168984f9c434ac1530efc3, type: 3}
-  damage: 5
+  prefab: {fileID: 8714191172974450849, guid: 5b244eaad5a3ebd44a6043de5c788179, type: 3}
+  damage: 7
   speed: 15
-  cooldownDuration: 2
-  pierce: 2
+  cooldownDuration: 1.7
+  pierce: 3
   level: 2
   nextLevelPrefab: {fileID: 0}
+  name: Frontal Gun +1
+  description: +Damage, +Speed, +Cooldown, +Pierce
   icon: {fileID: 2143933118, guid: 8a190efba6d78394c81f7c407f29ae87, type: 3}
