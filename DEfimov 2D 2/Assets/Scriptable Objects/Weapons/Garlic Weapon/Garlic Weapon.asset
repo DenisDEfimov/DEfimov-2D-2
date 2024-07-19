@@ -21,4 +21,4 @@ MonoBehaviour:
   nextLevelPrefab: {fileID: 6631421921403587863, guid: 84e333dfcf20dff498020a997d7b5309, type: 3}
   name: Shield
   description: Periodically deploys a damaging shield bubble around you.
-  icon: {fileID: 1957451995, guid: 2fafc1704c0ca79468e00f08f02f5d94, type: 3}
+  icon: {fileID: 1399877113, guid: 2fafc1704c0ca79468e00f08f02f5d94, type: 3}

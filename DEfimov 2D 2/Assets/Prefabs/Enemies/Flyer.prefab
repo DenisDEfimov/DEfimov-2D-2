@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8992146447848980438}
   - component: {fileID: 735813922634448757}
   - component: {fileID: -6307042052445830011}
+  - component: {fileID: 3587363928655953275}
   m_Layer: 0
   m_Name: Flyer
   m_TagString: Enemy
@@ -142,7 +143,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.009378433, y: 0.1328581}
+  m_Offset: {x: 0.009378433, y: 0.115208134}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +154,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.48107147, y: 0.6154931}
+  m_Size: {x: 0.48107147, y: 0.58019316}
   m_EdgeRadius: 0
 --- !u!114 &8992146447848980438
 MonoBehaviour:
@@ -167,7 +168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aede7e6663e4f348a08a12aa2e22219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: cd1c7c2e40e5c544686b63d3b176bc75, type: 2}
 --- !u!114 &735813922634448757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +181,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: cd1c7c2e40e5c544686b63d3b176bc75, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
+  despawnDistance: 20
 --- !u!114 &-6307042052445830011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,3 +201,30 @@ MonoBehaviour:
   - name: Blue gem
     itemPrefab: {fileID: 230519412425451755, guid: d3a3e6da26833bc43ad17c2ce5ca31fb, type: 3}
     dropRate: 50
+--- !u!50 &3587363928655953275
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67774893511162602}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 100
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

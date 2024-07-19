@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: KnifeCharacter
   m_EditorClassIdentifier: 
   icon: {fileID: -478757245, guid: 2fafc1704c0ca79468e00f08f02f5d94, type: 3}
-  name: Knife Guy
+  name: GUN GUY
   startingWeapon: {fileID: 2093241466774969450, guid: 18122163dfef8394387324ef9de1978a, type: 3}
-  maxHealth: 1000
+  maxHealth: 800
   recovery: 1
-  moveSpeed: 5
-  might: 1
+  moveSpeed: 4
+  might: 1.1
   projectileSpeed: 0
-  magnet: 2
+  magnet: 1.4

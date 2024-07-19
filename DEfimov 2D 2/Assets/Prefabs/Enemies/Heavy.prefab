@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 789945680132983418}
   - component: {fileID: 1412907244417092730}
   - component: {fileID: 2115247793634097890}
+  - component: {fileID: 2731823045880146135}
   m_Layer: 0
   m_Name: Heavy
   m_TagString: Enemy
@@ -138,6 +139,7 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
+  despawnDistance: 20
 --- !u!114 &1412907244417092730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,7 +155,7 @@ MonoBehaviour:
   drops:
   - name: Blue gem
     itemPrefab: {fileID: 230519412425451755, guid: d3a3e6da26833bc43ad17c2ce5ca31fb, type: 3}
-    dropRate: 80
+    dropRate: 100
 --- !u!61 &2115247793634097890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -199,3 +201,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.67165947, y: 0.75765425}
   m_EdgeRadius: 0
+--- !u!50 &2731823045880146135
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2517613164836069412}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 100
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

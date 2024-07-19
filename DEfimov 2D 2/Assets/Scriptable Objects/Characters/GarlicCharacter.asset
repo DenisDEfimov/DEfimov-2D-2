@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: GarlicCharacter
   m_EditorClassIdentifier: 
   icon: {fileID: 391469097, guid: 2fafc1704c0ca79468e00f08f02f5d94, type: 3}
-  name: Gerlic Guy
+  name: SHIELD GUY
   startingWeapon: {fileID: 6631421921403587863, guid: 33f9ab6450e638b4e8012f09d834a915, type: 3}
-  maxHealth: 1000
+  maxHealth: 700
   recovery: 1
-  moveSpeed: 5
+  moveSpeed: 3.5
   might: 1
   projectileSpeed: 0
-  magnet: 2
+  magnet: 1

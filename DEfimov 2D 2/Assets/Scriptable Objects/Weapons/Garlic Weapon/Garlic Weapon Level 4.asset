@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70812a6e4f3a93f4baecf693f27121e3, type: 3}
+  m_Name: Garlic Weapon Level 4
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8303979927961709663, guid: 5daa603964a2b8a4393420b89d75e720, type: 3}
+  damage: 7
+  speed: 0
+  cooldownDuration: 2
+  pierce: 0
+  level: 4
+  nextLevelPrefab: {fileID: 6631421921403587863, guid: f1c3a378fb5c31248a32a93cc2085e3e, type: 3}
+  name: Shield +3
+  description: +Damage
+  icon: {fileID: 1399877113, guid: 2fafc1704c0ca79468e00f08f02f5d94, type: 3}
